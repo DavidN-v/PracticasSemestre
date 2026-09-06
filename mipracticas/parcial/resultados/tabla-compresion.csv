@@ -1,0 +1,28 @@
+﻿Archivo,Tipo,Algoritmo,Nivel,Tamaño original (bytes),Tamaño comprimido (bytes),Reducción (%),Tiempo promedio (s),Content-Encoding
+index.html,HTML,Identity,-,452,452,0.000,No medido,-
+index.html,HTML,Gzip,6,452,296,34.513,No medido,gzip
+index.html,HTML,Brotli,5,452,210,53.540,No medido,br
+texto-grande.txt,Texto plano,Identity,-,1940000,1940000,0.000,0.011969,-
+texto-grande.txt,Texto plano,Gzip,1,1940000,13502,99.304,No medido,gzip
+texto-grande.txt,Texto plano,Gzip,6,1940000,6697,99.655,0.025571,gzip
+texto-grande.txt,Texto plano,Gzip,9,1940000,6697,99.655,No medido,gzip
+texto-grande.txt,Texto plano,Brotli,5,1940000,304,99.984,0.007028,br
+texto-grande.txt,Texto plano,Brotli,11,1940000,133,99.993,No medido,br
+grafico.svg,SVG,Identity,-,308,308,0.000,No medido,-
+grafico.svg,SVG,Gzip,6,308,209,32.143,No medido,gzip
+grafico.svg,SVG,Brotli,5,308,171,44.481,No medido,br
+feed.xml,XML,Identity,-,250,250,0.000,No medido,-
+feed.xml,XML,Gzip,6,250,199,20.400,No medido,gzip
+feed.xml,XML,Brotli,5,250,167,33.200,No medido,br
+imagen.png,PNG,Identity,-,6176,6176,0.000,No medido,-
+imagen.png,PNG,Gzip,6,6176,6176,0.000,No medido,-
+imagen.png,PNG,Brotli,5,6176,6176,0.000,No medido,-
+foto.jpg,JPEG,Identity,-,17538,17538,0.000,No medido,-
+foto.jpg,JPEG,Gzip,6,17538,17538,0.000,No medido,-
+foto.jpg,JPEG,Brotli,5,17538,17538,0.000,No medido,-
+clip.mp4,MP4,Identity,-,7074,7074,0.000,No medido,-
+clip.mp4,MP4,Gzip,6,7074,7074,0.000,No medido,-
+clip.mp4,MP4,Brotli,5,7074,7074,0.000,No medido,-
+paquete.zip,ZIP,Identity,-,1159,1159,0.000,No medido,-
+paquete.zip,ZIP,Gzip,6,1159,1159,0.000,No medido,-
+paquete.zip,ZIP,Brotli,5,1159,1159,0.000,No medido,-
