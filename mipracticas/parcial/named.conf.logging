@@ -7,19 +7,35 @@ logging {
         print-severity yes;
     };
 
+    channel transferencias_dns {
+        file "/var/log/named/transferencias.log" versions 3 size 5m;
+        severity info;
+        print-time yes;
+        print-category yes;
+        print-severity yes;
+    };
+
+    channel seguridad_dns {
+        file "/var/log/named/seguridad.log" versions 3 size 5m;
+        severity info;
+        print-time yes;
+        print-category yes;
+        print-severity yes;
+    };
+
     category queries {
         consultas_dns;
     };
 
-    category security {
-        consultas_dns;
-    };
-
     category xfer-in {
-        consultas_dns;
+        transferencias_dns;
     };
 
     category xfer-out {
-        consultas_dns;
+        transferencias_dns;
+    };
+
+    category security {
+        seguridad_dns;
     };
 };
