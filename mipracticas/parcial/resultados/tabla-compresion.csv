@@ -1,28 +1,73 @@
-﻿Archivo,Tipo,Algoritmo,Nivel,Tamaño original (bytes),Tamaño comprimido (bytes),Reducción (%),Tiempo promedio (s),Content-Encoding
-index.html,HTML,Identity,-,452,452,0.000,No medido,-
-index.html,HTML,Gzip,6,452,296,34.513,No medido,gzip
-index.html,HTML,Brotli,5,452,210,53.540,No medido,br
-texto-grande.txt,Texto plano,Identity,-,1940000,1940000,0.000,0.011969,-
-texto-grande.txt,Texto plano,Gzip,1,1940000,13502,99.304,0.243944,gzip
-texto-grande.txt,Texto plano,Gzip,6,1940000,6697,99.655,0.025571,gzip
-texto-grande.txt,Texto plano,Gzip,9,1940000,6697,99.655,0.247073,gzip
-texto-grande.txt,Texto plano,Brotli,5,1940000,304,99.984,0.007028,br
-texto-grande.txt,Texto plano,Brotli,11,1940000,133,99.993,0.400808,br
-grafico.svg,SVG,Identity,-,308,308,0.000,No medido,-
-grafico.svg,SVG,Gzip,6,308,209,32.143,No medido,gzip
-grafico.svg,SVG,Brotli,5,308,171,44.481,No medido,br
-feed.xml,XML,Identity,-,250,250,0.000,No medido,-
-feed.xml,XML,Gzip,6,250,199,20.400,No medido,gzip
-feed.xml,XML,Brotli,5,250,167,33.200,No medido,br
-imagen.png,PNG,Identity,-,6176,6176,0.000,No medido,-
-imagen.png,PNG,Gzip,6,6176,6176,0.000,No medido,-
-imagen.png,PNG,Brotli,5,6176,6176,0.000,No medido,-
-foto.jpg,JPEG,Identity,-,17538,17538,0.000,No medido,-
-foto.jpg,JPEG,Gzip,6,17538,17538,0.000,No medido,-
-foto.jpg,JPEG,Brotli,5,17538,17538,0.000,No medido,-
-clip.mp4,MP4,Identity,-,7074,7074,0.000,No medido,-
-clip.mp4,MP4,Gzip,6,7074,7074,0.000,No medido,-
-clip.mp4,MP4,Brotli,5,7074,7074,0.000,No medido,-
-paquete.zip,ZIP,Identity,-,1159,1159,0.000,No medido,-
-paquete.zip,ZIP,Gzip,6,1159,1159,0.000,No medido,-
-paquete.zip,ZIP,Brotli,5,1159,1159,0.000,No medido,-
+Archivo,Tipo,Algoritmo,Nivel,Tamaño original (bytes),Tamaño comprimido (bytes),Ratio,Reducción (%),Tiempo promedio (s),Content-Encoding
+pagina-prueba.html,HTML,Identity,-,262750,262750,1.00000,0.000,0.001522667,-
+estilos-prueba.css,CSS,Identity,-,346750,346750,1.00000,0.000,0.001643000,-
+estilos-prueba.min.css,CSS minificado,Identity,-,264114,264114,1.00000,0.000,0.001355000,-
+app-prueba.js,JavaScript,Identity,-,829263,829263,1.00000,0.000,0.002075333,-
+datos-grandes.json,JSON,Identity,-,3780896,3780896,1.00000,0.000,0.007738333,-
+grafico.svg,SVG,Identity,-,308,308,1.00000,0.000,0.000789333,-
+feed.xml,XML,Identity,-,250,250,1.00000,0.000,0.000772000,-
+texto-grande.txt,Texto plano,Identity,-,1940000,1940000,1.00000,0.000,0.003546333,-
+imagen.png,PNG,Identity,-,6176,6176,1.00000,0.000,0.000966000,-
+foto.jpg,JPEG,Identity,-,17538,17538,1.00000,0.000,0.001082000,-
+clip.mp4,MP4,Identity,-,7074,7074,1.00000,0.000,0.000775000,-
+paquete.zip,ZIP,Identity,-,1159,1159,1.00000,0.000,0.000923667,-
+pagina-prueba.html,HTML,Gzip,1,262750,2117,0.00806,99.194,0.323218667,gzip
+estilos-prueba.css,CSS,Gzip,1,346750,8121,0.02342,97.658,0.004291667,gzip
+estilos-prueba.min.css,CSS minificado,Gzip,1,264114,7652,0.02897,97.103,0.003594333,gzip
+app-prueba.js,JavaScript,Gzip,1,829263,34133,0.04116,95.884,0.008954000,gzip
+datos-grandes.json,JSON,Gzip,1,3780896,45150,0.01194,98.806,0.037480333,gzip
+grafico.svg,SVG,Gzip,1,308,212,0.68831,31.169,0.000959333,gzip
+feed.xml,XML,Gzip,1,250,199,0.79600,20.400,0.000917000,gzip
+texto-grande.txt,Texto plano,Gzip,1,1940000,13502,0.00696,99.304,0.017091000,gzip
+imagen.png,PNG,Gzip,1,6176,6176,1.00000,0.000,0.000772333,-
+foto.jpg,JPEG,Gzip,1,17538,17538,1.00000,0.000,0.000810667,-
+clip.mp4,MP4,Gzip,1,7074,7074,1.00000,0.000,0.000899333,-
+paquete.zip,ZIP,Gzip,1,1159,1159,1.00000,0.000,0.000730667,-
+pagina-prueba.html,HTML,Gzip,6,262750,1176,0.00448,99.552,0.328344333,gzip
+estilos-prueba.css,CSS,Gzip,6,346750,7789,0.02246,97.754,0.005947667,gzip
+estilos-prueba.min.css,CSS minificado,Gzip,6,264114,7360,0.02787,97.213,0.004799333,gzip
+app-prueba.js,JavaScript,Gzip,6,829263,32990,0.03978,96.022,0.012934000,gzip
+datos-grandes.json,JSON,Gzip,6,3780896,40118,0.01061,98.939,0.057063000,gzip
+grafico.svg,SVG,Gzip,6,308,209,0.67857,32.143,0.001050333,gzip
+feed.xml,XML,Gzip,6,250,199,0.79600,20.400,0.000924667,gzip
+texto-grande.txt,Texto plano,Gzip,6,1940000,6697,0.00345,99.655,0.026363333,gzip
+imagen.png,PNG,Gzip,6,6176,6176,1.00000,0.000,0.000782333,-
+foto.jpg,JPEG,Gzip,6,17538,17538,1.00000,0.000,0.000938000,-
+clip.mp4,MP4,Gzip,6,7074,7074,1.00000,0.000,0.000773667,-
+paquete.zip,ZIP,Gzip,6,1159,1159,1.00000,0.000,0.000622333,-
+pagina-prueba.html,HTML,Gzip,9,262750,1176,0.00448,99.552,0.345768000,gzip
+estilos-prueba.css,CSS,Gzip,9,346750,7668,0.02211,97.789,0.006677000,gzip
+estilos-prueba.min.css,CSS minificado,Gzip,9,264114,7250,0.02745,97.255,0.005591000,gzip
+app-prueba.js,JavaScript,Gzip,9,829263,32279,0.03892,96.108,0.016933667,gzip
+datos-grandes.json,JSON,Gzip,9,3780896,40118,0.01061,98.939,0.071351333,gzip
+grafico.svg,SVG,Gzip,9,308,209,0.67857,32.143,0.001329333,gzip
+feed.xml,XML,Gzip,9,250,199,0.79600,20.400,0.000952000,gzip
+texto-grande.txt,Texto plano,Gzip,9,1940000,6697,0.00345,99.655,0.016863667,gzip
+imagen.png,PNG,Gzip,9,6176,6176,1.00000,0.000,0.000660000,-
+foto.jpg,JPEG,Gzip,9,17538,17538,1.00000,0.000,0.000854667,-
+clip.mp4,MP4,Gzip,9,7074,7074,1.00000,0.000,0.000783000,-
+paquete.zip,ZIP,Gzip,9,1159,1159,1.00000,0.000,0.000767333,-
+pagina-prueba.html,HTML,Brotli,5,262750,204,0.00078,99.922,0.002544333,br
+estilos-prueba.css,CSS,Brotli,5,346750,3877,0.01118,98.882,0.005974667,br
+estilos-prueba.min.css,CSS minificado,Brotli,5,264114,3639,0.01378,98.622,0.004690000,br
+app-prueba.js,JavaScript,Brotli,5,829263,12971,0.01564,98.436,0.014737000,br
+datos-grandes.json,JSON,Brotli,5,3780896,18909,0.00500,99.500,0.037947333,br
+grafico.svg,SVG,Brotli,5,308,171,0.55519,44.481,0.001889667,br
+feed.xml,XML,Brotli,5,250,167,0.66800,33.200,0.001546333,br
+texto-grande.txt,Texto plano,Brotli,5,1940000,304,0.00016,99.984,0.006742667,br
+imagen.png,PNG,Brotli,5,6176,6176,1.00000,0.000,0.000794000,-
+foto.jpg,JPEG,Brotli,5,17538,17538,1.00000,0.000,0.000955333,-
+clip.mp4,MP4,Brotli,5,7074,7074,1.00000,0.000,0.000815000,-
+paquete.zip,ZIP,Brotli,5,1159,1159,1.00000,0.000,0.000792000,-
+pagina-prueba.html,HTML,Brotli,11,262750,181,0.00069,99.931,0.043750000,br
+estilos-prueba.css,CSS,Brotli,11,346750,3220,0.00929,99.071,2.295487000,br
+estilos-prueba.min.css,CSS minificado,Brotli,11,264114,3253,0.01232,98.768,1.460368000,br
+app-prueba.js,JavaScript,Brotli,11,829263,13669,0.01648,98.352,2.711833000,br
+datos-grandes.json,JSON,Brotli,11,3780896,17185,0.00455,99.545,28.384867333,br
+grafico.svg,SVG,Brotli,11,308,173,0.56169,43.831,0.004917667,br
+feed.xml,XML,Brotli,11,250,162,0.64800,35.200,0.004109333,br
+texto-grande.txt,Texto plano,Brotli,11,1940000,133,0.00007,99.993,0.208493667,br
+imagen.png,PNG,Brotli,11,6176,6176,1.00000,0.000,0.000937000,-
+foto.jpg,JPEG,Brotli,11,17538,17538,1.00000,0.000,0.000760000,-
+clip.mp4,MP4,Brotli,11,7074,7074,1.00000,0.000,0.000855333,-
+paquete.zip,ZIP,Brotli,11,1159,1159,1.00000,0.000,0.000752333,-
