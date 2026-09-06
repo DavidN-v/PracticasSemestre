@@ -3,11 +3,11 @@ index.html,HTML,Identity,-,452,452,0.000,No medido,-
 index.html,HTML,Gzip,6,452,296,34.513,No medido,gzip
 index.html,HTML,Brotli,5,452,210,53.540,No medido,br
 texto-grande.txt,Texto plano,Identity,-,1940000,1940000,0.000,0.011969,-
-texto-grande.txt,Texto plano,Gzip,1,1940000,13502,99.304,No medido,gzip
+texto-grande.txt,Texto plano,Gzip,1,1940000,13502,99.304,0.243944,gzip
 texto-grande.txt,Texto plano,Gzip,6,1940000,6697,99.655,0.025571,gzip
-texto-grande.txt,Texto plano,Gzip,9,1940000,6697,99.655,No medido,gzip
+texto-grande.txt,Texto plano,Gzip,9,1940000,6697,99.655,0.247073,gzip
 texto-grande.txt,Texto plano,Brotli,5,1940000,304,99.984,0.007028,br
-texto-grande.txt,Texto plano,Brotli,11,1940000,133,99.993,No medido,br
+texto-grande.txt,Texto plano,Brotli,11,1940000,133,99.993,0.400808,br
 grafico.svg,SVG,Identity,-,308,308,0.000,No medido,-
 grafico.svg,SVG,Gzip,6,308,209,32.143,No medido,gzip
 grafico.svg,SVG,Brotli,5,308,171,44.481,No medido,br
